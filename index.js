@@ -30,6 +30,8 @@ fetch(
         function showPosition(position) {
           // console.log(position.coords.latitude);
           console.log(position);
+                console.log("Carrer del Pintor Navarro Llorens, 7, 46008 València, Valencia, Spain");
+
           // console.log(position.coords.longitude);
 
           let latitude = position.coords.latitude;
@@ -102,7 +104,6 @@ fetch(
 
       let address2 =
         "Carrer del Pintor Navarro Llorens, 7, 46008 València, Valencia, Spain";
-      console.log("Carrer del Pintor Navarro Llorens, 7, 46008 València, Valencia, Spain"):
 
       let btn = document.getElementById("btn");
       let input = document.getElementById("input");
